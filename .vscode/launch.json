@@ -1,0 +1,629 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SimpleSSLSocketServer<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "ch.qos.logback.classic.net.SimpleSSLSocketServer",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SimpleSocketServer<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "ch.qos.logback.classic.net.SimpleSocketServer",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-T_PR_MET_IMA1_GLB_AL_C_A_STEP1<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "com.htht.mat.at.T_PR_MET_IMA1_GLB_AL_C_A_STEP1",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-C_PR_STD_METE_PRCI_DAY<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "com.htht.sta.hyd.temp.C_PR_STD_METE_PRCI_DAY",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-C_PR_STD_METE_PRCI_DAY_old<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "com.htht.sta.hyd.temp.C_PR_STD_METE_PRCI_DAY_old",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-C_PR_STD_METE_TPR_DAY<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "com.htht.sta.hyd.temp.C_PR_STD_METE_TPR_DAY",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-C_PR_STD_METE_TPR_DAY_old<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "com.htht.sta.hyd.temp.C_PR_STD_METE_TPR_DAY_old",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-C_PR_STD_METE_VIS_DAY<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "com.htht.sta.hyd.temp.C_PR_STD_METE_VIS_DAY",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-C_PR_STD_METE_WND_DAY<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "com.htht.sta.hyd.temp.C_PR_STD_METE_WND_DAY",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StatementCacheBenchmark<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "com.mchange.v2.c3p0.stmt.StatementCacheBenchmark",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SimplePropertyBeanGenerator<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "com.mchange.v2.codegen.bean.SimplePropertyBeanGenerator",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecreatePackage<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "com.mchange.v2.sql.filter.RecreatePackage",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DocsConnectionPropsHelper<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "com.mysql.jdbc.DocsConnectionPropsHelper",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ErrorMappingsDocGenerator<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "com.mysql.jdbc.util.ErrorMappingsDocGenerator",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PropertiesDocGenerator<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "com.mysql.jdbc.util.PropertiesDocGenerator",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TimezoneDump<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "com.mysql.jdbc.util.TimezoneDump",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VersionFSHierarchyMaker<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "com.mysql.jdbc.util.VersionFSHierarchyMaker",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "junit.runner.Version",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "lombok.launch.Main",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OracleSql<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "oracle.jdbc.driver.OracleSql",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CharacterSetFactory<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "oracle.sql.CharacterSetFactory",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<TJFXDataProcessPLUG>(1)",
+            "request": "launch",
+            "mainClass": "org.apache.poi.Version",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EscherDump<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.ddf.EscherDump",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OOXMLLister<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.dev.OOXMLLister",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OOXMLPrettyPrint<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.dev.OOXMLPrettyPrint",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecordGenerator<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.dev.RecordGenerator",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CommandLineTextExtractor<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.extractor.CommandLineTextExtractor",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HPSFPropertiesExtractor<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hpsf.extractor.HPSFPropertiesExtractor",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PropertyIDMap<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hpsf.wellknown.PropertyIDMap",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BiffDrawingToXml<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.dev.BiffDrawingToXml",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BiffViewer<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.dev.BiffViewer",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EFBiffViewer<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.dev.EFBiffViewer",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FormulaViewer<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.dev.FormulaViewer",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReSave<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.dev.ReSave",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecordLister<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.dev.RecordLister",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExcelExtractor<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.extractor.ExcelExtractor",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OldExcelExtractor<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.extractor.OldExcelExtractor",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-POIFSDump<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.dev.POIFSDump",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-POIFSHeaderDumper<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.dev.POIFSHeaderDumper",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-POIFSLister<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.dev.POIFSLister",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-POIFSViewer<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.dev.POIFSViewer",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-POIFSReader<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.eventfilesystem.POIFSReader",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NPOIFSFileSystem<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.filesystem.NPOIFSFileSystem",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OPOIFSFileSystem<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.filesystem.OPOIFSFileSystem",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-POIFSFileSystem<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.filesystem.POIFSFileSystem",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VBAMacroExtractor<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.macros.VBAMacroExtractor",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DrawingDump<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.util.DrawingDump",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FontMetricsDumper<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.util.FontMetricsDumper",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HexDump<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.util.HexDump",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OOXMLLite<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.util.OOXMLLite",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-XDGFVisioExtractor<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.xdgf.extractor.XDGFVisioExtractor",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HierarchyPrinter<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.xdgf.util.HierarchyPrinter",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VsdxToPng<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.xdgf.util.VsdxToPng",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-XSLFPowerPointExtractor<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.xslf.extractor.XSLFPowerPointExtractor",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PPTX2PNG<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.xslf.util.PPTX2PNG",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-XSSFDump<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.xssf.dev.XSSFDump",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-XSSFSave<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.xssf.dev.XSSFSave",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-XSSFBEventBasedExcelExtractor<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.xssf.extractor.XSSFBEventBasedExcelExtractor",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-XSSFEventBasedExcelExtractor<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.xssf.extractor.XSSFEventBasedExcelExtractor",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-XSSFExcelExtractor<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.xssf.extractor.XSSFExcelExtractor",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-XWPFWordExtractor<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.xwpf.extractor.XWPFWordExtractor",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JarHelper<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.common.JarHelper",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NameUtil<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.common.NameUtil",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Inst2Xsd<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.inst2xsd.Inst2Xsd",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JamServiceFactory<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.jam.JamServiceFactory",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ParserClassBuilder<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.jam.internal.parser.ParserClassBuilder",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-REUtil<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.regex.REUtil",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Diff<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.tool.Diff",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FactorImports<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.tool.FactorImports",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InstanceValidator<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.tool.InstanceValidator",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrettyPrinter<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.tool.PrettyPrinter",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RunXQuery<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.tool.RunXQuery",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SchemaCompiler<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.tool.SchemaCompiler",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SchemaCopy<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.tool.SchemaCopy",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SchemaResourceManager<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.tool.SchemaResourceManager",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StreamInstanceValidator<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.tool.StreamInstanceValidator",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TypeHierarchyPrinter<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.tool.TypeHierarchyPrinter",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-XSTCTester<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.tool.XSTCTester",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-XsbDumper<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.tool.XsbDumper",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-XPathGenerator<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.xpathgen.XPathGenerator",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SchemaInstanceGenerator<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.apache.xmlbeans.impl.xsd2inst.SchemaInstanceGenerator",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PhysicalMemory<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "org.terracotta.offheapstore.util.PhysicalMemory",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EditBuildScript<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "repackage.EditBuildScript",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Repackage<TJFXDataProcessPLUG>",
+            "request": "launch",
+            "mainClass": "repackage.Repackage",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-C_PR_STD_METE_VIS_DAY<TJFXDataProcessPLUG>(1)",
+            "request": "launch",
+            "mainClass": "test.C_PR_STD_METE_VIS_DAY",
+            "projectName": "TJFXDataProcessPLUG"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-C_PR_STD_METE_TPR_DAY_old",
+            "request": "launch",
+            "mainClass": "com.htht.sta.hyd.temp.C_PR_STD_METE_TPR_DAY_old"
+        }
+    ]
+}
